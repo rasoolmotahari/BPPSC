@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this benchmark set or algorithm, please cite the related paper."
+title: "Benchmark Instances and MSIG Algorithm for the Bin Packing Problem with Setups and Conflicts"
+authors:
+  - family-names: Motahari
+    given-names: Rasool
+repository-code: "https://github.com/rasoolmotahari/BPPSC"
+date-released: 2026-01-01
+version: "1.0.0"
