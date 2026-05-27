@@ -1,18 +1,35 @@
 # Results
 
-This folder contains the computational results of the BPPSC experiments.
+This folder contains the computational result files for the Bin Packing Problem with Setups and Conflicts (BPPSC).
+
+The results are organized by conflict density and by paper-level summary tables.
 
 ## Structure
 
 | Folder | Description |
 |---|---|
-| `by_density/` | Results separated by conflict density |
-| `by_problem_size/` | Results separated by number of items |
-| `tables_for_paper/` | Tables reported in the paper |
+| `by_density/` | Full Excel result files for each conflict-density level |
+| `by_problem_size/` | Optional summaries grouped by number of items |
+| `tables_for_paper/` | Final summary tables reported in the paper |
 
-## Algorithms
+## Density-level result files
 
-The following algorithms are compared:
+For each conflict density `rho = 0.0, 0.1, ..., 0.9`, the corresponding folder contains:
+
+| File | Description |
+|---|---|
+| `benchmark_comparison_rho_0.X.xlsx` | Comparison between MSIG and adapted benchmark algorithms |
+| `msig_vs_lower_bound_rho_0.X.xlsx` | Comparison between MSIG and the proposed lower bound |
+
+For `rho = 0.0`, the folder also contains:
+
+| File | Description |
+|---|---|
+| `comparison_with_best_known_BPPS.xlsx` | Comparison between MSIG and the BPPS best-known solutions |
+
+## Performance measures
+
+The benchmark-comparison files compare the following algorithms:
 
 - P-FFD
 - P-BFD
@@ -20,12 +37,8 @@ The following algorithms are compared:
 - Best C-TP
 - MSIG
 
-## Performance measure
+The lower-bound files compare the MSIG solution value with the proposed lower bound.
 
-For each instance, the deviation of algorithm `a` is computed as:
+## Note
 
-```text
-Dev_a (%) = ((z_a - z_best) / z_best) * 100
-```
-
-where `z_best` is the best solution found among all compared algorithms for that instance.
+The source codes of MSIG and the adapted benchmark algorithms are not included in this repository at this stage. This repository provides the benchmark instances, conflict-generation code, and computational result files.
