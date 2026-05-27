@@ -22,7 +22,6 @@ The proposed solution method is a **Multi-Start Iterated Greedy (MSIG)** algorit
 | `scripts/` | Scripts for running experiments and reproducing tables |
 | `results/` | Computational results separated by density, problem size, and paper tables |
 | `docs/` | Documentation for instance format, result format, algorithm, and reproduction |
-| `figures/` | Figures used to summarize computational results |
 
 ## Benchmark instances
 
@@ -68,7 +67,6 @@ Detailed results are stored in:
 
 - `results/by_density/`
 - `results/by_problem_size/`
-- `results/tables_for_paper/`
 
 ## Reproducing the experiments
 

@@ -2,7 +2,7 @@
 
 This folder contains the computational result files for the Bin Packing Problem with Setups and Conflicts (BPPSC).
 
-The results are organized by conflict density and by paper-level summary tables.
+The results are organized by conflict density.
 
 ## Structure
 
@@ -10,7 +10,6 @@ The results are organized by conflict density and by paper-level summary tables.
 |---|---|
 | `by_density/` | Full Excel result files for each conflict-density level |
 | `by_problem_size/` | Optional summaries grouped by number of items |
-| `tables_for_paper/` | Final summary tables reported in the paper |
 
 ## Density-level result files
 
@@ -27,7 +26,7 @@ For `rho = 0.0`, the folder also contains:
 |---|---|
 | `comparison_with_best_known_BPPS.xlsx` | Comparison between MSIG and the BPPS best-known solutions |
 
-## Performance measures
+## Compared algorithms
 
 The benchmark-comparison files compare the following algorithms:
 
@@ -36,8 +35,6 @@ The benchmark-comparison files compare the following algorithms:
 - P-WFD
 - Best C-TP
 - MSIG
-
-The lower-bound files compare the MSIG solution value with the proposed lower bound.
 
 ## Note
 
