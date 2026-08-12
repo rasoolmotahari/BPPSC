@@ -29,18 +29,18 @@ The benchmark set contains ten conflict-density levels.
 
 | Conflict density | Number of instances | Folder |
 |---:|---:|---|
-| 0.0 | 480 | `data/bppsc_instances/rho_0.0/` |
-| 0.1 | 480 | `data/bppsc_instances/rho_0.1/` |
-| 0.2 | 480 | `data/bppsc_instances/rho_0.2/` |
-| 0.3 | 480 | `data/bppsc_instances/rho_0.3/` |
-| 0.4 | 480 | `data/bppsc_instances/rho_0.4/` |
-| 0.5 | 480 | `data/bppsc_instances/rho_0.5/` |
-| 0.6 | 480 | `data/bppsc_instances/rho_0.6/` |
-| 0.7 | 480 | `data/bppsc_instances/rho_0.7/` |
-| 0.8 | 480 | `data/bppsc_instances/rho_0.8/` |
-| 0.9 | 480 | `data/bppsc_instances/rho_0.9/` |
+| 0.0 | 576 | `data/bppsc_instances/rho_0.0/` |
+| 0.1 | 576 | `data/bppsc_instances/rho_0.1/` |
+| 0.2 | 576 | `data/bppsc_instances/rho_0.2/` |
+| 0.3 | 576 | `data/bppsc_instances/rho_0.3/` |
+| 0.4 | 576 | `data/bppsc_instances/rho_0.4/` |
+| 0.5 | 576 | `data/bppsc_instances/rho_0.5/` |
+| 0.6 | 576 | `data/bppsc_instances/rho_0.6/` |
+| 0.7 | 576 | `data/bppsc_instances/rho_0.7/` |
+| 0.8 | 576 | `data/bppsc_instances/rho_0.8/` |
+| 0.9 | 576 | `data/bppsc_instances/rho_0.9/` |
 
-Total number of generated BPPSC instances: **4,800**.
+Total number of generated BPPSC instances: **5,760**.
 
 ## Algorithms
 
