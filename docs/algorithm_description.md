@@ -8,6 +8,7 @@ The proposed MSIG algorithm contains the following components:
 4. greedy repair,
 5. two-phase local search,
 6. simulated-annealing-type acceptance rule,
-7. one restart mechanism based on removing 50% of the heaviest bins.
+7. One removal mechanism: the bin with the largest residual capacity,
+8. one restart mechanism based on removing 50% of the heaviest bins.
 
 The best solution found during the entire search is returned.
