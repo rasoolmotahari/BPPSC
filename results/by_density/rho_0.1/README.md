@@ -6,7 +6,7 @@ This folder contains computational results for BPPSC instances generated with co
 
 | File | Description |
 |---|---|
-| `results_rho_0.1.xlsx` | Full computational results for all 480 instances |
+| `results_rho_0.1.xlsx` | Full computational results for all 576 instances |
 | `summary_rho_0.1.csv` | Summary by algorithm |
 | `best_solutions_rho_0.1.csv` | Best solution found for each instance |
 
