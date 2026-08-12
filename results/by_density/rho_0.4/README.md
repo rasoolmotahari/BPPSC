@@ -4,16 +4,21 @@ This folder contains computational results for BPPSC instances generated with co
 
 ## Files
 
-| File | Description |
-|---|---|
-| `results_rho_0.4.xlsx` | Full computational results for all 576 instances |
-| `summary_rho_0.4.csv` | Summary by algorithm |
-| `best_solutions_rho_0.4.csv` | Best solution found for each instance |
+| File                               | Description |
+| ---------------------------------- | ----------- |
+| `benchmark_comparison_rho_0.4.xlsx` | Comparison of MSIG with the adapted benchmark algorithms for all 576 instances |
+| `msig_vs_lower_bound_rho_0.4.xlsx`  | Comparison of MSIG solutions with the proposed lower bound for all 576 instances |
 
 ## Algorithms
+
+The benchmark comparison includes:
 
 - P-FFD
 - P-BFD
 - P-WFD
 - Best C-TP
 - MSIG
+
+## Lower-bound comparison
+
+The file `msig_vs_lower_bound_rho_0.4.xlsx` reports the comparison between the MSIG solution values and the proposed lower bounds for the 576 instances with `rho = 0.4`.
