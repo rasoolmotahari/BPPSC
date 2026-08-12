@@ -18,7 +18,7 @@ Default behavior:
 Example:
     python add_conflicts_to_existing_bppsc_same_folder.py
 
-The conflict density is fixed to 0.1.
+The conflict density is fixed to 0.5.
 
 Example with another output folder:
     python add_conflicts_to_existing_bppsc_fixed_c10_same_names.py --output-dir "my_new_conflict_data"
